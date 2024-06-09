@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "test",
+      "body": "dd",
+      "author": "Rebecka",
+      "id": 1
+    },
+    {
+      "title": "Hej bloggen",
+      "body": "lorem ipsum!",
+      "author": "Cihan",
+      "id": 2
+    }
+  ]
+}

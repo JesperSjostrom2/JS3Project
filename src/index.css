@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+/*--- ALL CSS IS COLLECTED IN THIS FILE -----*/
+
+/* ----- Basestyle ------ */
+* {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #7da6ff;
+  text-decoration: none;
+  background-color: #222222;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0px 0px 0px 46%;
+}
+
+span {
+  color:#7da6ff;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #7da6ff;
+}
+
+label {
+  color: #7da6ff;
+}
+
+.content {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+/* ----- Blogdetails page ------- */
+.blog-details h2 {
+  font-size: 20px;
+  color: #7da6ff;
+  margin-bottom: 10px;
+}
+
+.h2blog-list {
+  text-align: center;
+  color: white;
+}
+
+.blog-details div{
+  margin: 20px 0;
+  color: white;
+}
+
+.blog-details button {
+  background: #7da6ff;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.blog-details p {
+  color: white;
+}
+
+/* ----- Create new blog form -------*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #7da6ff;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid darkgray;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #7da6ff;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border-radius: 15%;
+}
+
+.create label {
+  text-align: center;
+  font-weight: bold;
+}
+
+.create textarea {
+  height: 150px;
+  border-radius: 5px;
+}
+
+.create input {
+  border-radius: 5px;
+}
+
+.create select {
+  border-radius: 5px;
+}
+
+/*------- Bloglist and searchbar -------*/
+.search-input {
+  padding-bottom: 40px;
+  font-size: 18px;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.search-input p {
+  padding-bottom: 40px;
+  font-size: 22px;
+  border-radius: 0px;
+}
+
+.input-field{
+  margin: 0px;
+  background-color: rgb(70, 70, 70);
+  border: 1px solid rgba(0,0,0,.5);
+}
+.search-list {
+  padding: 10px 16px;
+  margin: auto;
+  border-bottom: 1px solid white;
+  width: 500px;
+  height: 150px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(70, 70, 70);
+  border: 1px solid rgba(0,0,0,.5);
+  
+}
+
+.search-list:hover {
+  box-shadow: 1px 3px 10px lightgray;
+  background-color: gray;
+}
+
+.search-list h2 {
+  font-size: 30px;
+  color: #7da6ff;
+  margin: 25px 0px 0px 0px;
+  font-weight: bold;
+}
+
+.search-list a{
+  text-decoration: none;
+}
+
+.search-list p {
+  color: white;
+}
+
+.header {
+  padding: 25px 0;
+  text-align: center;
+  background: #222;
+}
+
+.tint {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(248, 247, 216, 0.7);
+}
+
+.HeaderCSS h1 {
+  color: white;
+}
+
+.HeaderCSS h5 {
+  color: white;
+  
+}
+
+.home-page {
+  text-align: center;
+  
+}
+
+.home-page link {
+  background-color: #121212;
+  text-decoration: none;
+}
+
+.CreateBlog {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.CreateBlog a {
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(70, 70, 70);
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.CreateBlog a:hover {
+  color: #7da6ff;
+}
